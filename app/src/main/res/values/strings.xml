@@ -1,0 +1,65 @@
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">Laser Clock</string>
+
+    <string name="send">Send</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth Chat.</string>
+    <string name="title_connecting">Соединение…</string>
+    <string name="title_connected_to">Connected to <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_not_connected">Not connected</string>
+
+    <string name="scanning">Сканирование устройств…</string>
+    <string name="select_device">Выберете устройство</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="none_found">No devices found</string>
+    <string name="title_paired_devices">Сопряженные устройства</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Сканировать</string>
+
+    <string name="secure_connect">Подключиться к устройству - Secure</string>
+    <string name="insecure_connect">Подключиться к устройству - Insecure</string>
+    <string name="discoverable">Make discoverable</string>
+    <string name="set_clock_hour">Set Clock Hour</string>
+    <string name="set_clock_minutes">set clock minutes</string>
+    <string name="set_alarm_hour">set alarm hour</string>
+    <string name="set_alarm_minutes">set alarm minutes</string>
+    <string name="alarm_off">Alarm OFF</string>
+    <string name="deveice_off">Device off</string>
+    <string name="set_color_diode">set color diode</string>
+    <string name="please_enter_value">Please enter value</string>
+    <string name="not_connect">Нет соединения с устройством</string>
+    <string name="error_connect">Ошибка соединения с устройством</string>
+
+
+    <string name="set_time">Установка времени</string>
+    <string name="set_alarm">Установка будильника</string>
+    <string name="manager_laser">Управление лазерами</string>
+    <string name="set_light">Подсветка</string>
+    <string name="mac">MAC-адрес:  </string>
+    <string name="manual">Ручной ввод</string>
+    <string name="settings">Настройка</string>
+    <string name="sync_time_phone">Синхронизация со \nвременем телефона</string>
+    <string name="alert_off">Выключить будильник</string>
+    <string name="on_off_laser">Вкл./выкл. лазера</string>
+    <string name="color">Цвет</string>
+    <string name="set">Установить</string>
+    <string name="please_tap_to_connect"><u>Please tap to connect</u></string>
+
+    <string name="read_mode">Режим просмотра</string>
+
+
+    <string-array name="colorList">
+        <item>green</item>
+        <item>blue</item>
+        <item>red</item>
+        <item>white</item>
+        <item>pink</item>
+        <item>yellow</item>
+    </string-array>
+
+    <string name="on_off_one_laser">Включить первый лазер</string>
+    <string name="on_off_second_laser">Включить второй лазер</string>
+    <string name="close_connect">Закрыть соединение</string>
+    <string name="change_big_letter">Изменять на большые буквы</string>
+</resources>
+

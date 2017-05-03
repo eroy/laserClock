@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        style="@style/Line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height" />
+
+    <com.larswerkman.holocolorpicker.ColorPicker
+        android:layout_gravity="center"
+        android:id="@+id/picker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+
+    <com.larswerkman.holocolorpicker.ValueBar
+        android:layout_gravity="center"
+        android:id="@+id/valuebar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <View
+        style="@style/Line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height" />
+    <TextView
+        android:layout_marginLeft="8dp"
+        android:id="@+id/color"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnSetColor"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:text="@string/set"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <View
+        style="@style/Line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/line_height" />
+</LinearLayout>

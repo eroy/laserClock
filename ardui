@@ -1,0 +1,34 @@
+int i = 0;  // переменная для счетчика имитирующего показания датчика
+int led = 13; 
+
+void setup() {
+  Serial.begin(9600);    // установим скорость обмена данными
+  pinMode(led, OUTPUT);  // и режим работы 13-ого цифрового пина в качестве выхода
+}
+void loop() {
+
+ while(Serial.available()) {
+
+    String ttydata = Serial.readString(); // ttyData - информация с серийного порта
+    ttydata.trim();
+    
+        Serial.println("You command: " + ttydata);
+
+    if(ttydata == "qwe") {
+
+    Serial.println(ttydata);
+    }
+    
+    if(ttydata == "on") {
+    digitalWrite(led, HIGH);
+    Serial.println("eye: led is on");
+    }
+  if(ttydata == "off") {
+    digitalWrite(led, LOW);
+    Serial.println("eye: led is off");
+    }
+  if(ttydata == "2") {
+    Serial.println("eye: I seen you!!");
+    }
+    delay(100);
+ }}

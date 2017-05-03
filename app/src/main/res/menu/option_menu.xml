@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/closeConnect"
+        android:icon="@drawable/ic_bluetooth_disabled_white_24dp"
+        android:showAsAction="always|collapseActionView"
+        android:title="@string/close_connect" />
+    <group android:menuCategory="system">
+        <item
+            android:id="@+id/secure_connect_scan"
+            android:icon="@android:drawable/stat_sys_data_bluetooth"
+            android:showAsAction="never"
+            android:title="@string/secure_connect" />
+        <item
+            android:id="@+id/insecure_connect_scan"
+            android:icon="@android:drawable/stat_sys_data_bluetooth"
+            android:showAsAction="never"
+            android:title="@string/insecure_connect" />
+        <item
+            android:id="@+id/read_mode"
+            android:icon="@android:drawable/stat_sys_data_bluetooth"
+            android:showAsAction="never"
+            android:title="@string/read_mode" />
+    </group>
+</menu>
