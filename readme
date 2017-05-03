@@ -1,17 +1,9 @@
-ПРОТОКОЛ СВЯЗИ
-ДЛЯ ПРОЕКТА
-«LASER CLOCK»
-«LASER CLOCK» связывается с внешними устройствами по Bluetooth. Для связи используются такие команды:
-UH** – установка часовой стрелки, где **– цифры
-UM** – установка минутной стрелки, где **–цифры
-UGCL – установка зеленого цвета для диода
-UBCL – установка белого цвета для диода
-URCL – установка красного цвета для диода
-UPCL – установка розового цвета для диода
-UWCL– установка белого цвета для диода
-UYCL– установка желтого цвета для диода
-AH** – установка часов для будильника, где **– цифры
-AM** – установка минут для будильника, где **– цифры
-AOFF – выключение будильника
-COFF – выключение устройства 
-При получении команды контролер отправляет текст данной команды обратно.
+# Laser Clock
+
+## About project
+
+Applications for management the Arduino device through the Bluetooth module; send commands to the device and receive a response from it about the execution of the command.
+
+### License
+
+[Apache-2.0](https://github.com/eroy/laserClock/blob/master/LICENCE.txt)
